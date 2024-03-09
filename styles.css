@@ -154,6 +154,16 @@ body{
     grid-column:2/3;
     gap:10px;
     padding-left:10px;
+    padding-right:10px;
+}
+.main-content h2,
+.main-content h3,
+.main-content h4{
+    margin-bottom:5px;
+}
+.main-content p{
+    margin-top:0;
+    text-align: justify;
 }
 .main-projects{
     grid-column: 1/2;
@@ -164,7 +174,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(auto-fit,1fr);
-    gap:10px;
+    gap:20px;
 }
 
 .project-card,
@@ -177,8 +187,14 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding:10px;
 }
-
+.project-card-icons{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap:5px;
+}
 .main-announcements{
     grid-column:2/3
 }
