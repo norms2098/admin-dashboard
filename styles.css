@@ -12,7 +12,19 @@ body{
   'opsz' 24
 }
 
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+.dm-sans-dashboard {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+  
 .main-grid{
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -23,11 +35,35 @@ body{
 
 .dashboard{
     grid-row: 1/3;
-    background-color: rgb(87, 201, 240);
+    background-color: lightseagreen;
+    color:white;
+    font-weight: bolder;
+}
+.dashboard-logo{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    padding-left:20px;
+    font-size:2.5rem;
 }
 
-li{
+.dashboard ul{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding-left: 30px;
+    font-size:larger
+}
+
+.dashboard li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     list-style-type: none;
+}
+
+.upper-dashboard{
+    margin-bottom: 70px;
 }
 .header{
     display: grid;
